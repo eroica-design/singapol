@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K STADIUM Community-led, DAO-based Company Builder</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js"></script> 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WLY2K9KPEE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WLY2K9KPEE');
+    </script>
+    <!-- 화면사이즈 -->
+    <script>
+      function funcThisSize() {
+      $("#innerWidth").html( window.innerWidth );
+      $("#innerHeight").html( window.innerHeight );
+      }
+      $(function(){
+          $(window).resize( funcThisSize );
+          funcThisSize();
+      });
+    </script>
+</head>
+<!-- 화면사이즈 -->
+<div style="position: fixed; top: 0; left: 0; color: yellow;">
+<span style="color: yellow;" id="innerWidth" class="point-in"></span> x <span style="color: yellow;" id="innerHeight" class="point-in"></span>
+</div>
+
+<!--header_nav--> 
+<body id="top" >
+  <div id="wrapper">
+    <header>
+      <div class="gnb-wrap">
+        <div class="gnb">
+          <div class="logo-wrap">
+            <div class="logo-img">
+              <a href="index.html">
+                <img src="img/K_top_logo.svg" alt="kstadium logo">
+              </a> 
+            </div>
+          </div>  
+          <nav>
+            <ul class="main-menu" id="myLinks">
+              <li>
+                <a href="#kstadium">K STADIUM</a>
+              </li>
+              <li>
+                <a href="#roadmap">ROADMAP</a>
+              </li>
+              <li>
+                <a href="#compliance">COMPLIANCE</a>
+              </li>             
+              <li>
+                <a href="#contactus">CONTACT US</a>
+              </li>             
+              <!-- 메뉴 숨김
+                <li>
+                <a href="http://forum.kstadium.io" target="_blank">Forum</a>
+              </li>              
+              -->
+            </ul>          
+          </nav>
+          <div class="togle-btn">
+            <a href="javascript:void(0);" class="togle-icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>          
+          </div>
+        </div>
+      </div>
+      <div class="bg-mp4">
+        <video muted autoplay loop>
+          <source src="mp4/bgmp4_main.mp4" type="video/mp4">
+        </video>
+        <div class="main-logo">
+          <img src="img/K_big_logo.svg" alt="kstadium main image" class="main-img">
+        </div>
+        <div class="bg-bottom">
+          <img src="img/bg-mp4.png" alt="bg image">
+        </div>
+      </div>
+    </header>
+
+    <!-- product -->
+    <section id="kstadium" class="contents">
+      <div class="section-tit">
+        <h2>K STADIUM</h2>
+        <h3>Community-led,<br> 
+          DAO-based Company Builder</h3>
+        <p>K STADIUM is a DAO Company Builder established in Singapore in 2022. <br>
+        We invest in various crypto projects to create and expand K STADIUM’s unique ecosystem <br>
+        through the blockchain mainnet and community-based Investment DAO.</p>
+      </div>
+      <!-- 4 column -->
+      <div class="ks-conts">
+        <div class="ks-item" data-aos="zoom-in">
+          <img src="img/icon_1.png" alt="icon">
+          <h3>K STADIUM <span>APP</span></h3>
+          <p>K STADIUM App is a platform that provides financial services, and it is a blockchain-based wallet for K STADIUM users. Governance participants get hances to vote for consensus and receive rewards for their investment participation.</p>
+          <div>
+            <button class="btn-dark" onclick="window.open('https://apps.apple.com/us/app/kstadium/id1628459935')"><img src="img/applestore.png" alt="apple store icon" style="padding-left: 0rem;"> App Store</button>
+            <button class="btn-dark" onclick="window.open('https://play.google.com/store/apps/details?id=io.kstadium')"> <img src="img/googleplay.png" alt="googleplay icon" style="padding-left: 0rem;"> Google Play</button>
+          </div>
+        </div>
+        <div class="ks-item" data-aos="zoom-in">
+          <img src="img/icon_2.png" alt="icon">
+          <h3>K STADIUM <span>BRIDGE</span></h3>
+          <p>K STADIUM Bridge is a service that supports asset transfer between platforms. Assets issued on other platforms can be transferred to the K STADIUM mainnet using this bridge.</p>
+          <div>
+            <button class="btn-dark" onclick="window.open('https://bridge.kstadium.io/bridge')">Learn <img src="img/arrow.png" alt="arrow icon"></button>
+          </div>
+        </div>       
+        <div class="ks-item" data-aos="zoom-in">
+          <img src="img/icon_3.png" alt="icon">
+          <h3>K STADIUM <span>EXPLORER</span></h3>
+          <p>K STADIUM Explorer records transactions in the blockchain transparently. It allows users to view and search transactions more clearly.</p>
+          <div>
+            <button class="btn-dark" onclick="window.open('https://explorer.kstadium.io/')">Learn <img src="img/arrow.png" alt="arrow icon"></button>
+          </div>
+        </div>
+        <div class="ks-item" data-aos="zoom-in">
+          <img src="img/icon_4.png" alt="icon">
+          <h3>K STADIUM <span>FORUM</span></h3>
+          <p>K STADIUM Forum is a community that supports free communication among members. It serves as a forum for posting notices, sharing information, and discussing governance issues. 
+          </p>
+          <div>
+            <button class="btn-dark" onclick="window.open('https://forum.kstadium.io/login')">Learn <img src="img/arrow.png" alt="arrow icon"></button>
+          </div>
+        </div>     
+      </div>     
+    </section>
+
+    <!-- roadmap -->
+    <section id="roadmap" class="contents-dark">
+      <div class="section-tit">
+        <h2>ROADMAP</h2>
+        <h3 class="light-tit">K STADIUM MAINNET ROADMAP</h3>
+      </div>      
+      <div class="rm-contain" data-aos="fade-right">
+        <div class="rm-item">
+          <h4>1Q. </h4>
+          <div class="rm-wrap">       
+            <h3><div class="month">February</div>K STADIUM Groundchain Testnet Launch</h3>
+            <ul>
+              <li>Closed Beta Test</li>            
+            </ul> 
+          </div>               
+        </div>
+        <div class="rm-item">
+          <h4>2Q. </h4>
+          <div class="rm-wrap">       
+            <h3><div class="month">April</div>KSTADIUM GroundChain Mainnet Launch</h3>
+            <ul>
+              <li>Open Beta Service</li>
+              <li>Bridge Open Beta Service</li>
+              <li>Explorer Open Beta Service</li>
+            </ul>
+            <h3>K STADIUM App Open Beta Service v0.9.7 Release</h3>
+            <ul>
+              <li>Acquire SOP through community pool investment. First round implementation of basic reward system that can be delegated to SOs, the governance validators, to obtain basic reward.</li>
+            </ul>
+            <h3><div class="month">May</div>K STADIUM App v0.9.12 Release</h3>
+            <ul>
+              <li>Improved Android app usability</li>
+            </ul>
+            <h3><div class="month">June</div></h3>
+            <h3>Whitepaper V0.9.7 Release</h3>
+            <h3>Changed reward policy</h3>
+            <h3>Reduced Node operation consignment fee</h3>
+          </div>               
+        </div>
+        <div class="rm-item">
+          <h4>3Q. </h4>
+          <div class="rm-wrap">       
+            <h3><div class="month">August</div></h3>
+            <h3>IOS App Launch</h3>
+            <h3>K STADIUM Forum Launch</h3>
+            <br>
+            <h3><div class="month">September</div>Bridge duplex service Launch</h3>
+            <h3>Explorer V1.0 Release</h3> 
+            <h3>Governance Voting service Launch</h3>  
+          </div>               
+        </div>
+        <div class="rm-item">
+          <h4>4Q. </h4>
+          <div class="rm-wrap">       
+            <h3>Dex Service Launch</h3>
+            <h3>K STADIUM investment managing system</h3>
+            <h3>APP service V 1.0 Release</h3>
+          </div>            
+        </div>
+      </div>      
+    </section>
+    <!-- compliance -->
+    <section id="compliance" class="contents">
+      <div class="section-tit">
+        <h2>COMPLIANCE</h2>
+        <h3>K STADIUM Compliance Committee</h3>
+        <p>The K STADIUM Compliance Committee supports the establishment of an organizational culture <br>
+          in which executives and employees voluntarily observe and practice compliance management <br>
+          In addition, for the continuous and healthy development of the company, we are expanding the base of <br>
+          our activities in various ways, such as establishing a compliance management system, laying the foundation <br>
+          for responsible management, and preventing risks in advance by responding to global regulations.</p>
+        <h4>Compliance <span>Structure</span></h4>
+        <p>The K STADIUM Compliance Committee presents standards for compliance management <br>and conducts compliance audits so that the company’s goals can be carried out fairly and legally. <br>
+          Through these efforts, K STADIUM strives to strengthen its compliance management <br>
+          to the level of global standards.</p>
+          <img src="img/con2_2.png" alt="compliance structure image">
+      </div>      
+    </section>
+    <!--compliance role -->
+    <section class="contents section-dark-bg">
+      <div class="section-dark-tit">
+        <h4>Compliance <span>Role</span></h4>
+        <p>The K STADIUM Compliance Committee provides guidelines for internal rules <br>
+          and processes for compliance management to ensure <br>
+          that the company’s goals can be fairly and legally achieved. <br>
+          In addition, for corporate risk management, we continuously monitor relevant laws <br>
+          and regulations to identify and manage potential risks.</p>
+          <img src="img/con2_role.png" alt="compliance structure role image">
+      </div>
+    </section>
+    <!-- compliance -->
+    <section id="contactus" class="contents">
+      <div class="section-tit">
+        <h2>CONTACT US</h2>
+        <h3>K STADIUM Contacts</h3>
+        <p>Investment proposal: <a href="mailto:investment@kstadium.io">investment@kstadium.io </a><br>
+          Business proposal: <a href="mailto:biz@kstadium.io">biz@kstadium.io</a><br>
+          Report violations: <a href="mailto:compliance@kstadium.io">compliance@kstadium.io</a><br>
+          Other inquiries: <a href="mailto:info@kstadium.io">info@kstadium.io</a></p>
+      </div>      
+    </section>
+    <!-- top -->    
+    <div class="top-icon">
+      <a href="#top"><img src="img/icon-top.svg" alt="top icon">
+      </a>
+    </div>  
+    <!-- footer -->
+    <footer class="f-conts">       
+      <div class="f-item">
+        &copy;K STADIUM Pte, LTD. All rights reserved.
+      </div>
+      <ul class="f-item">
+        <li>Info</li>
+        <li><a href="https://docs.kstadium.io/" target="_blank"> Docs</a></li>
+        <li><a href="https://help.kstadium.io/hc/en-us" target="_blank">Help Center</a></li>
+        <li><a href="https://kstadium.io/whitepaper.pdf" target="_blank">White Paper</a></li>
+        <li>Privacy Policy</li>
+      </ul>
+    </footer>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
